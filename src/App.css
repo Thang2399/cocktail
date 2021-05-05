@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.5;
+	/* overflow-x: hidden; */
+}
+
+body {
+	max-width: 1920px;
+	width: 100%;
+}
+
+div {
+	display: block;
+	letter-spacing: 0.2rem;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+	html {
+		overflow-x: hidden;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+
+	html::-webkit-scrollbar {
+		width: 0;
+		display: none;
+	}
+}
+
+
